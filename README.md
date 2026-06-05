@@ -48,9 +48,7 @@ A Pie Chart is used to visualize income versus expenses.
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
-## Demo
 
-(Add Loom video link here)
 
 ## Author
 

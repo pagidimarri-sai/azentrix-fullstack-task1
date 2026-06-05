@@ -1,16 +1,56 @@
-# React + Vite
+# Personal Budget Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive budget tracking web application built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add Income and Expense transactions
+- Edit transactions
+- Delete transactions
+- Category support
+- Date support
+- Automatic balance calculation
+- Income and Expense dashboard
+- Pie chart visualization
+- LocalStorage persistence
+- Responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Recharts
+- LocalStorage
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Project Approach
+
+The application was built using React Hooks (useState and useEffect).
+
+Transactions are stored in LocalStorage to ensure data persists after page refresh.
+
+The dashboard automatically calculates:
+
+- Total Income
+- Total Expenses
+- Current Balance
+
+A Pie Chart is used to visualize income versus expenses.
+
+## Screenshots
+
+(Add screenshots here)
+
+## Demo
+
+(Add Loom video link here)
+
+## Author
+
+Sai pagidimarri 

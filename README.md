@@ -45,7 +45,7 @@ A Pie Chart is used to visualize income versus expenses.
 
 ## Screenshots
 
-(Add screenshots here)
+![alt text](<Screenshot 2026-06-05 at 11.45.08 AM.png>)
 
 ## Demo
 
